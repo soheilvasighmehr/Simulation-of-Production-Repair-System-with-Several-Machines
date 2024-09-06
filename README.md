@@ -7,10 +7,12 @@ The simulation aims to determine the optimal number of repair technicians requir
 ## Simulation Approach
 The project involves creating a conceptual model and identifying key state variables and events. The state variables include the number of machines in the queue for repair, the status of each repair technician (busy or idle), the number of machines in operation, and the number of spare machines. The primary events are machine failures and the completion of repairs.
 The simulation was run for 40 hours to analyze the system performance under varying numbers of repair technicians. Key metrics collected include:
+
 •	Technician utilization rates
 •	Lost opportunity time due to lack of spare machines
 •	Number of failures and instances of spare machine shortages
 •	Repair times and the maximum queue length at the repair station
+
 Python code was developed to simulate the system, incorporating random number generation for the various time distributions. The simulation was executed multiple times to estimate the optimal number of technicians by examining technician utilization and lost opportunity time.
 
 ## Results and Analysis
